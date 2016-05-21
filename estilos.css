@@ -1,0 +1,51 @@
+header {
+  background: #2c3e50;
+  color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+a:link, a:visited {
+    display: block;
+    width: 220px;
+    font-weight: bold;
+    color: #FFF;
+    background-color: #98bf21;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover, a:active {
+    background-color: #7A991A;
+}
+
+#menu ul li a:hover{
+  background: #31473b
+}
+
+#menu ul li.selecionado a {
+  background: #fff;
+  color: #ff9000;
+}
+
+footer{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+h4{color: #98bf21}
+
+.main {
+  background: #f2f2f2;
+}

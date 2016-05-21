@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="ejemplo de HTML5" />
+	<meta name="keyboard" content="HTML5, CSS3" />
+	<meta name="viewport" content="width=device-width, user-scale=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="estilos.css">
+
+	<script src="script.js" type="text/javascript"></script>
+
+	<title> CV Branny Chito </title>
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<h2> CURRIUCULUM </h2>
+		</div>
+	</header>
+	<div class="container">
+		<nav>
+			<ul>
+				<li><a href="#">Datos Personales</a></li>
+				<li><a href="#">Formacion y Estudios</a></li>
+				<li><a href="#exp">Experiencia Profesional</a></li>
+				<li><a href="#cono">Conocimientos</a></li>
+				<li><a href="#proy">Proyectyos</a></li>
+			</ul>
+		</nav>
+		<section>
+			<ul>
+				<li>
+					<h4> DATOS PERSONALES </h4>
+				</li>
+				<hr/>
+				<ul> Nombre y Apellido: Branny Jamil Chito Chalan </ul>
+				<ul> Direccion: Urdesa, av Aguas y Laureles </ul>
+				<ul> Telefono: 0986 289 087 </ul>
+				<ul> email: brajchit@espol.edu.ec </ul>
+				<ul> Fecha de Nacimiento: 5 de noviembre 1990 </ul>
+				<ul> Estado Civil: Soltero</ul>
+				<br/>
+				<li>
+					<h4> FORMACION Y ESTUDIOS </h4>
+				</li>
+				<hr/>
+				<ul> Fecha : 5 de Febrero 2009 </ul>
+				<ul> Institucion : Colegio Tecnico "Distrito Metropolitano" </ul>
+				<ul> Titulacion: Tecnico en Informatica </ul>
+				<br/>
+				<li>
+					<h4 id="exp"> EXPERIENCIA PROFESIONAL </h4>
+				</li>
+				<hr/>
+				<ul> Fecha : Enero del 2012 </ul>
+				<ul> Empresa : Catering "Humadi" </ul>
+				<ul> Puesto/Actividad Desarrollada: Asistente de Logistica </ul>
+				<br/>
+				<ul> Fecha : Mayo del 2015 </ul>
+				<ul> Empresa : Escuela Superior Politecnica del Litoral </ul>
+				<ul> Puesto/Actividad Desarrollada: Ayudante academico de Lenguajes de Programacion </ul>
+				<br/>
+				<li>
+					<h4 id="cono"> CONOCIMIETOS </h4>
+				</li>
+				<hr/>
+				<ul> Uso de sistemas perativos Windows, Linux, Mac Os X </ul>
+				<ul> Lenguajes de programacio C, C++, Python, Objetive C, Lisp </ul>
+				<ul> Bases de datos MySql </ul>
+				<ul> Calulo, Fisica General, Quimica General</ul>
+				<br>
+				<li>
+					<h4 id="proy"> PROYECTOS </h4>
+				</li>
+				<hr/>
+				<ul>LivePlasma version C</ul>
+				<ul>Cajero Automatico en Python</ul>
+				<ul>App Asistente Academico Android</ul>
+			</ul>
+			<br><hr>
+			<h4 id="cont"> CONTACTARME </h4>
+			<form action = "Pagina2.html">
+				<label for="txtNombre">Nombre:</label>
+				<br/>
+				<input type="text" name="txtNombre" required />
+				<br/>
+				<label for="txtPagina">Pagina Personal:</label>
+				<br/>
+				<input type="url" name="txtPagina" placeholder="http://www.misitio.com" />
+				<br>
+				<label for="txtEmail">E-mail:</label>
+				<br/>
+				<input type="email" name="txtEmail" required />
+				<br/>
+				<label for="txtTelefono">Tel&eacute;fono:</label>
+				<br/>
+				<input type="tel" name="txtTelefono" required />
+				<br/>
+				<label for="txtMensaje">Mensaje:</label>
+				<br/>
+				<textarea rows="4" name="txtMensaje"></textarea>
+				<br>
+				<button>Enviar</button>
+
+			</form>
+		</section>
+		<footer> BBK Copyringht &copy 2015</footer>
+	</div>
+</body>
+
+</html>
